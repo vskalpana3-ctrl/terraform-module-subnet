@@ -6,7 +6,7 @@ Terraform module to create an AWS Subnet inside an existing VPC.
 
 ```hcl
 module "subnet" {
-  source = "git::https://github.com/<your-org>/terraform-module-subnet.git?ref=v1.0.0"
+  source = "git::https://github.com/vskalpana3-crtl/terraform-module-subnet.git?ref=v1.0.0"
 
   vpc_id            = "vpc-0abc123"
   cidr_block        = "10.0.1.0/24"
